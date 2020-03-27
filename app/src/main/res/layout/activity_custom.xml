@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Custom">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:text="Enter custom Light"
+        android:id="@+id/cLightT"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/cLightT"
+        android:id="@+id/cLight"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/cLight"
+        android:id="@+id/numL"
+        android:textSize="30dp"
+        android:text="Amount:"
+        android:textColor="#000000"/>
+
+    <NumberPicker
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/numL"
+        android:id="@+id/num"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/cHL"
+        android:textColor="#000000"
+        android:text="Light Height"
+        android:layout_below="@+id/num"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/cH"
+        android:layout_below="@+id/cHL"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add light"
+        android:id="@+id/cLightB"
+        android:layout_below="@+id/cH"/>
+
+</RelativeLayout>

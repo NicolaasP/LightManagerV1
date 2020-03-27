@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Light Manager</string>
+
+    <string-array name="lights">
+        <item>2 Ft tubes</item>
+        <item>4 Ft tubes 28W X1</item>
+        <item>4 Ft tubes 28W X2</item>
+        <item>4 Ft tubes 28W X3</item>
+        <item>4 Ft tubes 36W X1</item>
+        <item>4 Ft tubes 36W X2</item>
+        <item>4 Ft tubes 36W X3</item>
+        <item>4 Ft tubes 40W X1</item>
+        <item>4 Ft tubes 40W X2</item>
+        <item>4 Ft tubes 40W X3</item>
+        <item>4 Ft tubes 58W X1</item>
+        <item>4 Ft tubes 58W X2</item>
+        <item>4 Ft tubes 58W X3</item>
+        <item>5 Ft tubes 38W X1</item>
+        <item>5 Ft tubes 36W X2</item>
+        <item>5 Ft tubes 36W X3</item>
+        <item>5 Ft tubes 40W X1</item>
+        <item>5 Ft tubes 40W X2</item>
+        <item>5 Ft tubes 40W X3</item>
+        <item>5 Ft tubes 58W X1</item>
+        <item>5 Ft tubes 58W X2</item>
+        <item>5 Ft tubes 58W X3</item>
+        <item>BULK HEAD</item>
+        <item>SPOTLIGHT 100W</item>
+        <item>SPOTLIGHT 200W</item>
+        <item>DOWN LIGHTER 58W</item>
+        <item>CFL 58W</item>
+
+    </string-array>
+
+    <string-array name="areas">
+
+    </string-array>
+</resources>

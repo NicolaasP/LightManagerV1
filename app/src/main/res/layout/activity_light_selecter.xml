@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LightSelecter">
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/spinner"></Spinner>
+
+    <NumberPicker
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/spinner"
+        android:layout_marginTop="20dp"
+        android:id="@+id/num"></NumberPicker>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lLH"
+        android:layout_below="@+id/spinner"
+        android:text="Please enter light height:"
+        android:layout_marginTop="8dp"
+        android:textColor="#FF000000"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:maxLines="1"
+        android:layout_below="@id/lLH"
+        android:id="@+id/lightHieght"/>
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/addLight"
+        android:layout_marginTop="8dp"
+        android:text="Add light"
+        android:layout_below="@+id/lightHieght"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/custom"
+        android:text="Custom Light"/>
+</RelativeLayout>

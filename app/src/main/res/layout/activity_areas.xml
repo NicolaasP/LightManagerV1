@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Areas">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/deleteB"
+        android:text="Delete file"
+        android:layout_above="@+id/loadB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/loadB"
+        android:text="Uplaod Project"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_above="@+id/AddArea"/>
+
+    <Button
+        android:id="@+id/AddArea"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_centerHorizontal="true"
+        android:text="Add Area"
+        android:layout_above="@+id/fin"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Finish"
+        android:id="@+id/fin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentBottom="true"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/AddArea"
+        android:id="@+id/listView"/>
+</RelativeLayout>
