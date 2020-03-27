@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity{
     private Button about;
     private ListView projs;
     private String[] projects;
-    private static final String VERSION = "1.30";
+    private static final String VERSION = "2.1";
     protected static Area[] areas1 = new Area[0];
     protected static String projectName;
 
