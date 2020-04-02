@@ -50,13 +50,6 @@ public class LightSelecter extends AppCompatActivity implements AdapterView.OnIt
                 add();
             }
         });
-        h.setOnKeyListener(new View.OnKeyListener() {
-            @Override
-            public boolean onKey(View view, int i, KeyEvent keyEvent) {
-                if(keyEvent.getKeyCode() == 66) add();
-                return false;
-            }
-        });
         cus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

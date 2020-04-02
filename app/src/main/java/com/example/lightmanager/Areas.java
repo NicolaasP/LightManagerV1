@@ -131,6 +131,7 @@ public class Areas extends AppCompatActivity {
 
     private void setAdapter(){
         disp = false;
+        lv.setAdapter(null);
         ArrayAdapter<Area> adapter = new ArrayAdapter<Area>(getApplicationContext(), R.layout.list_btxt, R.id.li, areas);
         lv.setAdapter(adapter);
     }
